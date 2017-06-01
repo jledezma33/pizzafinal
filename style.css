@@ -1,0 +1,32 @@
+.main-container{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.homehead{
+     border: 3px solid black;
+
+}
+.centerdiv{
+     border: 3px solid black;
+    height: 75px;
+}
+.middlebody{
+     border: 3px solid black;
+     
+     display: flex;
+     flex-direction: row;
+}
+
+.middleleft,.middleright{
+    border: 3px solid black;
+    height: 100px;
+    width: 50%;
+    margin: 5px;
+}
+.middlebottom{
+    border: 3px solid black;
+    height: 75px;
+}
