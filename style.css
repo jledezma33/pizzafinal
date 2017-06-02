@@ -15,7 +15,7 @@
     height: 75px;
 
 }
-.middlebody{
+.middlebody,.upperpage{
      border: 3px solid black;
      
      display: flex;
@@ -33,6 +33,21 @@
     height: 75px;
 }
 
+.centerdiv2{
+    border: 3px solid black;
+    height: 50px;
+}
+.upperleft{
+    border: 2px solid black;
+    height:80px;
+    width: 65%;
+    margin: 15px;
+}
+.upperright{
+    border: 2px solid black;
+    height:80px;
+    width: 35%;
+
 body {
         /*background: #84919c;*/
         /*background: #e3e3e3;*/
@@ -46,4 +61,55 @@ html {
                 background: #f3f7f0;
 
 
+}    margin: 15px;
+}
+.middlecustom{
+    display: flex;
+    flex-direction: row;
+height: 425px;
+}
+.toppings{
+    border: 2px solid black;
+    width: 40%;
+    height: 325px;
+    margin: 5px;
+}
+.ordercontainer{
+       border: 2px solid black;
+    width: 95%;
+    height: 325px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.imagediv{
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+    margin: 5px;
+}
+.listdiv{
+   border: 2px solid black;
+    width: 55%;
+    height: 300px;
+    margin: 5px;
+}
+.outsideorder{
+        border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  
+}
+.buttoncontainer{
+   
+}
+.checkoutdiv{
+    border: 2px solid black;
+      width: 30%;
+    height: 40px;
+    margin: 5px;
+    margin-right: 43px;
+ float: right;
+   
 }
