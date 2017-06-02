@@ -7,11 +7,13 @@
 }
 .homehead{
      border: 3px solid black;
+     background: #56799c;
 
 }
 .centerdiv{
      border: 3px solid black;
     height: 75px;
+
 }
 .middlebody{
      border: 3px solid black;
@@ -29,4 +31,19 @@
 .middlebottom{
     border: 3px solid black;
     height: 75px;
+}
+
+body {
+        /*background: #84919c;*/
+        /*background: #e3e3e3;*/
+        background: #d0e0f6;
+}
+
+html {
+    /*background: #8f9f9f;*/
+    /*background: #fff;*/
+        /*background: #80b5e8;*/
+                background: #f3f7f0;
+
+
 }
