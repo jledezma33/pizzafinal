@@ -1,3 +1,13 @@
+
+html{
+    background-color: #f3f7f0;
+}
+body{
+    /*background-color: #99A8B5;*/
+    background-color: #d0e0f6;
+}
+
+
 .main-container{
     border: 3px solid black;
     display: flex;
@@ -13,7 +23,7 @@
      border: 3px solid black;
     height: 75px;
 }
-.middlebody{
+.middlebody,.upperpage{
      border: 3px solid black;
      
      display: flex;
@@ -29,4 +39,330 @@
 .middlebottom{
     border: 3px solid black;
     height: 75px;
+}
+
+.centerdiv2{
+    border: 3px solid black;
+    height: 50px;
+    background-color: #56799C;
+}
+.upperleft{
+    border: 2px solid black;
+    height:80px;
+    width: 65%;
+    margin: 15px;
+}
+.upperright{
+    border: 2px solid black;
+    height:80px;
+    width: 35%;
+    margin: 15px;
+}
+.middlecustom{
+    display: flex;
+    flex-direction: row;
+height: 425px;
+margin: 5px;
+}
+.toppings{
+    border: 2px solid black;
+    width: 40%;
+    height: 325px;
+    margin: 5px;
+}
+.ordercontainer{
+       border: 2px solid black;
+    width: 95%;
+    height: 325px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.imagediv{
+    border: 2px solid black;
+    width: 50%;
+    height: 300px;
+    margin: 5px;
+}
+.listdiv{
+   border: 2px solid black;
+    width: 55%;
+    height: 300px;
+    margin: 5px;
+}
+.outsideorder{
+        border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  
+}
+.buttoncontainer{
+   
+}
+.checkoutdiv{
+   
+float: right;
+margin-right: 43px;
+    font-family: 'Baloo Bhaina',cursive;
+    font-size: 1.5em;
+    border:3px solid #A0AFBD;
+background-color: #56799C;
+ padding: 8px 10px 0px 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #222;
+width: 15%;
+color: white;
+   
+}
+a{
+    text-decoration: none;
+    
+    text-align: center;
+}
+#smallSize{
+   font-family: 'Baloo Bhaina',cursive;
+    font-size: 1.5em;
+    border:3px solid #A0AFBD;
+background-color: #56799C;
+ padding: 8px 10px 0px 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #222;
+width: 10%;
+margin: 10px;
+margin-left: 90px;
+color: white;
+}
+#mediumSize{
+   font-family: 'Baloo Bhaina',cursive;
+    font-size: 1.5em;
+    border:3px solid #A0AFBD;
+background-color: #56799C;
+ padding: 8px 10px 0px 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #222;
+width: 13%;
+margin: 10px;
+margin-left: 25px;
+color: white;
+}
+
+#largeSize{
+   font-family: 'Baloo Bhaina',cursive;
+    font-size: 1.5em;
+    border:3px solid #A0AFBD;
+background-color: #56799C;
+ padding: 8px 10px 0px 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #222;
+width: 13%;
+margin: 10px;
+margin-left: 25px;
+color: white;
+}
+
+#xlSize{
+   font-family: 'Baloo Bhaina',cursive;
+    font-size: 1.5em;
+    border:3px solid #A0AFBD;
+background-color: #56799C;
+ padding: 8px 10px 0px 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px #222;
+width: 20%;
+margin: 10px;
+margin-left: 25px;
+color: white;
+}
+img{
+    margin-bottom: 50px;
+}
+#pizza{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#baconImg{
+    visibility: hidden;
+
+position: relative;
+left: 90px;
+bottom: 345px;
+}
+#baconLImg{
+    visibility: hidden;
+   position: relative;
+left: 90px;
+bottom: 670px;
+}
+#baconRImg{
+visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 1000px;
+}
+
+#GreenPepperImg{
+ visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 1345px;
+}
+#GreenPepperLImg{
+     visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 1680px;
+}
+#GreenPepperRImg{
+     visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 2020px;
+}
+
+#HamImg{
+    visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 2360px;
+}
+#HamLImg{
+    visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 2690px;
+}
+#HamRImg{
+    visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 3025px;
+}
+#MushroomImg{
+     visibility: hidden;
+  position: relative;
+left: 90px;
+bottom: 3355px;
+}
+#MushroomLImg{
+     visibility: hidden;
+  position: relative;
+left: 90px;
+bottom: 3695px;
+}
+#MushroomRImg{
+     visibility: hidden;
+    position: relative;
+left: 90px;
+bottom: 4030px;
+}
+#OliveImg{
+       visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 4370px ;
+}
+#OliveLImg{
+       visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 4710px ;
+}
+#OliveRImg{
+       visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 5040px;   
+}
+#OnionImg{
+     visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 5380px;   
+}
+#OnionLImg{
+     visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 5725px; 
+}
+#OnionRImg{
+     visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 6080px; 
+}
+#PepperoniImg{
+     visibility: hidden;
+ position: relative;
+left: 90px;
+bottom: 6385px; 
+}
+#PepperoniLImg{
+     visibility: hidden;
+  position: relative;
+left: 90px;
+bottom: 6730px; 
+}
+#PepperoniRImg{
+     visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 7080px; 
+}
+#PineappleImg{
+        visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 7400px; 
+}
+#PineappleLImg{
+        visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 7740px; 
+}
+#PineappleRImg{
+        visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 8080px;
+}
+
+#RedPepperImg{
+    visibility: hidden;
+position: relative;
+left: 85px;
+bottom: 8410px;
+}
+#RedPepperLImg{
+    visibility: hidden;
+position: relative;
+left: 85px;
+bottom: 8760px;
+}
+#RedPepperRImg{
+    visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 9080px;
+}
+#SausageImg{
+      visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 9420px;
+}
+
+#SausageLImg{
+      visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 9760px;
+}
+#SausageRImg{
+      visibility: hidden;
+position: relative;
+left: 90px;
+bottom: 10090px;
 }
