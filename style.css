@@ -9,51 +9,47 @@ body{
 
 
 .main-container{
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
 
 
 }
 .homehead{
-     border: 3px solid black;
 
 }
 .centerdiv{
-     border: 3px solid black;
     height: 75px;
 }
 .middlebody,.upperpage{
-     border: 3px solid black;
      
      display: flex;
      flex-direction: row;
 }
 
 .middleleft,.middleright{
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     height: 100px;
     width: 50%;
     margin: 5px;
 }
 .middlebottom{
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     height: 75px;
 }
 
 .centerdiv2{
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     height: 50px;
     background-color: #56799C;
 }
 .upperleft{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     height:80px;
     width: 65%;
     margin: 15px;
 }
 .upperright{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     height:80px;
     width: 35%;
     margin: 15px;
@@ -65,13 +61,13 @@ height: 425px;
 margin: 5px;
 }
 .toppings{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 40%;
     height: 325px;
     margin: 5px;
 }
 .ordercontainer{
-       border: 2px solid black;
+       /*border: 2px solid black;*/
     width: 95%;
     height: 325px;
     margin: 5px;
@@ -79,19 +75,19 @@ margin: 5px;
     flex-direction: row;
 }
 .imagediv{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 50%;
     height: 300px;
     margin: 5px;
 }
 .listdiv{
-   border: 2px solid black;
+   /*border: 2px solid black;*/
     width: 55%;
     height: 300px;
     margin: 5px;
 }
 .outsideorder{
-        border: 2px solid black;
+        /*border: 2px solid black;*/
     display: flex;
     flex-direction: column;
     width:100%;
@@ -398,4 +394,11 @@ bottom: 8490px;
 
 p, h4, h2 {
     margin: 1px;
+}
+
+#list {
+    word-wrap: break-word;
+    padding: 10px;
+    white-space: normal;
+    overflow: overlay;
 }

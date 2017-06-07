@@ -56,12 +56,12 @@
         <div class="middlecustom">
             <div class="toppings">
                 <p>
-                    <input type="checkbox" onclick="enableDisable('baconImg');addText(this)" id='bacon'> Bacon
-                    <input type="checkbox" onclick="enableDisable('baconLImg');addText(this)" id='baconL'> Bacon Left
-                    <input type="checkbox" onclick="enableDisable('baconRImg');addText(this)" id='baconR'> Bacon Right <br />
-                    <input type="checkbox" onclick="enableDisable('GreenPepperImg');addText(this)" id='greenPepper'> Green Pepper
-                    <input type="checkbox" onclick="enableDisable('GreenPepperLImg');addText(this)" id='greenPepperL'> Green Pepper Left
-                    <input type="checkbox" onclick="enableDisable('GreenPepperRImg');addText(this)" id='greenPepperR'> Green Pepper Right
+                    <input type="checkbox" onclick="enableDisable('baconImg');addText(this);getTotal()" id='bacon'> Bacon
+                    <input type="checkbox" onclick="enableDisable('baconLImg');addText(this);getTotal()" id='baconL'> Bacon Left
+                    <input type="checkbox" onclick="enableDisable('baconRImg');addText(this);getTotal()" id='baconR'> Bacon Right <br />
+                    <input type="checkbox" onclick="enableDisable('GreenPepperImg');addText(this);getTotal()" id='greenPepper'> Green Pepper
+                    <input type="checkbox" onclick="enableDisable('GreenPepperLImg');addText(this);getTotal()" id='greenPepperL'> Green Pepper Left
+                    <input type="checkbox" onclick="enableDisable('GreenPepperRImg');addText(this);getTotal()" id='greenPepperR'> Green Pepper Right
                     <br />
                     <input type="checkbox" onclick="enableDisable('HamImg');addText(this)" id='ham'> Ham
                     <input type="checkbox" onclick="enableDisable('HamLImg');addText(this)" id='hamL'> Ham Left
@@ -132,28 +132,16 @@
 
 
                     </div>
-                    <div class="listdiv" id='list'></div>
+                    <div class="listdiv" id='list'>
+                        <div class='total'>Total: </div>
+                    </div>
 
                 </div>
                 <div class="buttoncontainer">
                     <button class="checkoutdiv" type="button" onclick="alert('Hello world!')">Checkout</button>
-
-
                 </div>
-
             </div>
-
-
-
-
-
-
-
-
         </div>
-
-
-
         <script src="script.js"></script>
 
 </body>

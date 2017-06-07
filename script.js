@@ -66,7 +66,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList5">hi</p>';
+            } listID.innerHTML += '<p id="itemInList5">Green Peppers Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList5"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -78,7 +78,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList6">hi</p>';
+            } listID.innerHTML += '<p id="itemInList6">Green Peppers Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList6"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -90,7 +90,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList7">hi</p>';
+            } listID.innerHTML += '<p id="itemInList7">Ham Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList7"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -103,7 +103,7 @@ function addText(evt) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
             }
-            listID.innerHTML += '<p id="itemInList8">hi</p>';
+            listID.innerHTML += '<p id="itemInList8">Ham Added To Left Side $' + oneDollar + '</p>';
 
         } else {
             listID.removeChild(document.getElementById("itemInList8"));
@@ -116,7 +116,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList9">hi</p>';
+            } listID.innerHTML += '<p id="itemInList9">Hame Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList9"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -128,7 +128,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList10">hi</p>';
+            } listID.innerHTML += '<p id="itemInList10">Mushrooms Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList10"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -140,7 +140,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList11">hi</p>';
+            } listID.innerHTML += '<p id="itemInList11">Mushrooms Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList11"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -152,7 +152,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList12">hi</p>';
+            } listID.innerHTML += '<p id="itemInList12">Mushrooms Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList12"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -164,7 +164,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList13">hi</p>';
+            } listID.innerHTML += '<p id="itemInList13">Olives Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList13"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -176,7 +176,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList14">hi</p>';
+            } listID.innerHTML += '<p id="itemInList14">Olives Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList14"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -188,7 +188,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList15">hi</p>';
+            } listID.innerHTML += '<p id="itemInList15">Olives Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList15"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -200,7 +200,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList16">hi</p>';
+            } listID.innerHTML += '<p id="itemInList16">Onions Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList16"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -212,7 +212,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList17">hi</p>';
+            } listID.innerHTML += '<p id="itemInList17">Onions Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList17"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -224,7 +224,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList18">hi</p>';
+            } listID.innerHTML += '<p id="itemInList18">Onions Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList18"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -237,7 +237,7 @@ function addText(evt) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
             }
-            listID.innerHTML += '<p id="itemInList19">hi</p>';
+            listID.innerHTML += '<p id="itemInList19">Pepperoni Added To Pizza $' + oneDollar + '</p>';
 
         } else {
             listID.removeChild(document.getElementById("itemInList19"));
@@ -250,7 +250,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList20">hi</p>';
+            } listID.innerHTML += '<p id="itemInList20">Pepperoni Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList20"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -262,7 +262,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList21">hi</p>';
+            } listID.innerHTML += '<p id="itemInList21">Pepperoni Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList21"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -274,7 +274,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList22">hi</p>';
+            } listID.innerHTML += '<p id="itemInList22">Pineapple Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList22"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -286,7 +286,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList23">hi</p>';
+            } listID.innerHTML += '<p id="itemInList23">Pineapple Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList23"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -298,7 +298,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList24">hi</p>';
+            } listID.innerHTML += '<p id="itemInList24">Pineapple Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList24"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -310,7 +310,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList25">hi</p>';
+            } listID.innerHTML += '<p id="itemInList25">Red Peppers Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList25"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -322,7 +322,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList26">hi</p>';
+            } listID.innerHTML += '<p id="itemInList26">Red Peppers Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList26"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -334,7 +334,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList27">hi</p>';
+            } listID.innerHTML += '<p id="itemInList27">Red Peppers Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList27"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -346,7 +346,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList28">hi</p>';
+            } listID.innerHTML += '<p id="itemInList28">Sausage Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList28"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -358,7 +358,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList29">hi</p>';
+            } listID.innerHTML += '<p id="itemInList29">Sausage Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList29"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -370,7 +370,7 @@ function addText(evt) {
         if (evt.checked) {
             if (listID.getElementsByTagName("p").length != 0) {
                 total += 1;
-            } listID.innerHTML += '<p id="itemInList30">hi</p>';
+            } listID.innerHTML += '<p id="itemInList30">Sausage Added To Right Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList30"));
             if (listID.getElementsByTagName("p").length != 0) {
@@ -466,16 +466,5 @@ function addText(evt) {
         }
         total += 16;
     }
-    // if (evt.checked) {
-    //     listID.innerHTML += '<p id="itemInList">5 Ingredient Combo! $' + 3 + '</p>';
-    // } else {
-    //     listID.removeChild(document.getElementById("itemInList"));
-
-    // }
-}
-
-
-function getTotal() {
-    document.getElementById('list').innerHTML += '<h4 id="total">Total $' + total + '</h4>';
-
+        document.getElementById('list').innerHTML += '<h4 id="total">Total $' + total + '</h4>';
 }
