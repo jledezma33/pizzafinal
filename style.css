@@ -62,6 +62,7 @@ body{
     display: flex;
     flex-direction: row;
 height: 425px;
+margin: 5px;
 }
 .toppings{
     border: 2px solid black;
@@ -175,4 +176,222 @@ color: white;
 }
 img{
     margin-bottom: 50px;
+}
+#pizza{
+    display: block;
+    margin: auto;
+}
+#baconImg{
+    visibility: hidden;
+position: relative;
+display: block;
+margin: auto;
+bottom: 295px;
+}
+#baconLImg{
+    visibility: hidden;
+position: relative;
+display: block;
+margin: auto;
+bottom: 560px;
+}
+#baconRImg{
+visibility: hidden;
+position: relative;
+ display: block;
+ margin: auto;
+bottom: 830px;
+}
+
+#GreenPepperImg{
+ visibility: hidden;
+ position: relative;
+ display: block;
+ margin: auto;
+bottom: 1125px;
+}
+#GreenPepperLImg{
+     visibility: hidden;
+ position: relative;
+display: block;
+ margin: auto;
+bottom: 1425px;
+}
+#GreenPepperRImg{
+     visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 1700px;
+}
+
+#HamImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 1995px;
+}
+#HamLImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 2275px;
+}
+#HamRImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 2550px;
+}
+#MushroomImg{
+     visibility: hidden;
+  position: relative;
+display: block;
+ margin: auto;
+bottom: 2830px;
+}
+#MushroomLImg{
+     visibility: hidden;
+  position: relative;
+display: block;
+ margin: auto;
+bottom: 3110px;
+}
+#MushroomRImg{
+     visibility: hidden;
+    position: relative;
+display: block;
+ margin: auto;
+bottom: 3400px;
+}
+#OliveImg{
+       visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 3675px;
+}
+#OliveLImg{
+       visibility: hidden;
+ position: relative;
+display: block;
+ margin: auto;
+bottom: 3960px;
+}
+#OliveRImg{
+       visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 4250px;  
+}
+#OnionImg{
+     visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 4525px;  
+}
+#OnionLImg{
+     visibility: hidden;
+ position: relative;
+display: block;
+ margin: auto;
+bottom: 4825px;  
+}
+#OnionRImg{
+     visibility: hidden;
+ position: relative;
+display: block;
+ margin: auto;
+bottom: 5100px; 
+}
+#PepperoniImg{
+     visibility: hidden;
+ position: relative;
+display: block;
+ margin: auto;
+bottom: 5375px; 
+}
+#PepperoniLImg{
+     visibility: hidden;
+  position: relative;
+display: block;
+ margin: auto;
+bottom: 5650px;  
+}
+#PepperoniRImg{
+     visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 5950px;
+}
+#PineappleImg{
+        visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 6230px;
+}
+#PineappleLImg{
+        visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 6520px;
+}
+#PineappleRImg{
+        visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 6785px;
+}
+
+#RedPepperImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 7085px;
+}
+#RedPepperLImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 7370px;
+}
+#RedPepperRImg{
+    visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 7650px;
+}
+#SausageImg{
+      visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 7925px;
+}
+
+#SausageLImg{
+      visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 8210px;
+}
+#SausageRImg{
+      visibility: hidden;
+position: relative;
+display: block;
+ margin: auto;
+bottom: 8490px;
 }
