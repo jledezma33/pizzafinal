@@ -1,279 +1,5 @@
-function MyBacon() {
-    var img = document.getElementById('baconImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function MyBaconLeft() {
-    var img = document.getElementById('baconLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function MyBaconRight() {
-    var img = document.getElementById('baconRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-
-function GreenPepper() {
-    var img = document.getElementById('GreenPepperImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function GreenPepperLeft() {
-    var img = document.getElementById('GreenPepperLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function GreenPepperRight() {
-    var img = document.getElementById('GreenPepperRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function Ham() {
-    var img = document.getElementById('HamImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function HamLeft() {
-    var img = document.getElementById('HamLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function HamRight() {
-    var img = document.getElementById('HamRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-
-}
-function Mushroom() {
-    var img = document.getElementById('MushroomImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function MushroomL() {
-    var img = document.getElementById('MushroomLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function MushroomR() {
-    var img = document.getElementById('MushroomRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function Olive() {
-    var img = document.getElementById('OliveImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function OliveLeft() {
-    var img = document.getElementById('OliveLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function OliveRight() {
-    var img = document.getElementById('OliveRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-
-function Onion() {
-    var img = document.getElementById('OnionImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function OnionLeft() {
-    var img = document.getElementById('OnionLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function OnionRight() {
-    var img = document.getElementById('OnionRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function Pepporoni() {
-    var img = document.getElementById('PepperoniImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function PepporoniLeft() {
-    var img = document.getElementById('PepperoniLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function PepporoniRight() {
-    var img = document.getElementById('PepperoniRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function Pineapple() {
-    var img = document.getElementById('PineappleImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function PineappleLeft() {
-    var img = document.getElementById('PineappleLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function PineappleRight() {
-    var img = document.getElementById('PineappleRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-
-function RedPepper() {
-    var img = document.getElementById('RedPepperImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-
-function RedPepperLeft() {
-    var img = document.getElementById('RedPepperLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function RedPepperRight() {
-    var img = document.getElementById('RedPepperRImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function Sausage() {
-    var img = document.getElementById('SausageImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function SausageLeft() {
-    var img = document.getElementById('SausageLImg');
-    if (img.style.visibility === 'visible') {
-        img.style.visibility = "hidden";
-    }
-    else {
-        img.style.visibility = "visible";
-    }
-}
-function SausageRight() {
-    var img = document.getElementById('SausageRImg');
+function enableDisable(id) {
+    var img = document.getElementById(id);
     if (img.style.visibility === 'visible') {
         img.style.visibility = "hidden";
     }
@@ -282,25 +8,6 @@ function SausageRight() {
     }
 }
 var total = 0;
-var sizePrice = 0;
-
-function changeSizePrice(size){
-    switch(size){
-        case 1:
-            sizePrice = 4;
-            break;
-         case 2:
-            sizePrice = 8;
-            break;
-         case 3:
-            sizePrice = 12;
-            break;
-         case 4:
-            sizePrice = 16;
-            break;
-    }
-}
-
 function addText(evt) {
     var oneDollar = 1;
     var theID = evt.id;
@@ -674,31 +381,90 @@ function addText(evt) {
     }
     // } 
     if (listID.getElementsByTagName("p").length == 5) {
-        total = 3;
         listID.innerHTML += '<h5 id="itemInList">5 Ingredient Combo! $' + 3 + '</h5>';
         listID.innerHTML += '<h5 id="itemInListX">-$' + 1 + '</h5>';
+        total -= 1;
     }
     if (listID.getElementsByTagName("p").length == 6) {
-        total = 5;
+        if (listID.contains(document.getElementById('itemInList'))) {
             listID.removeChild(document.getElementById("itemInList"));
             listID.removeChild(document.getElementById("itemInListX"));
+            total += 1;
+        }
     }
     if (listID.getElementsByTagName("p").length == 4) {
         if (listID.contains(document.getElementById('itemInList'))) {
             listID.removeChild(document.getElementById("itemInList"));
             listID.removeChild(document.getElementById("itemInListX"));
-
+                    total += 1;
         }
-        total = 3;
-
-
     }
-    if (listID.getElementsByTagName("p").length == 7) {
-        if (listID.contains(document.getElementById('itemInList'))) {
-            listID.removeChild(document.getElementById("itemInList"));
-            listID.removeChild(document.getElementById("itemInListX"));
 
+
+
+
+
+
+    if (theID == 'smallSize') {
+        document.getElementById('list').innerHTML += '<h2 id="itemInListsm">Small Pizza $' + 4 + '</h2>';
+        if (document.getElementById('list').contains(document.getElementById('itemInListM'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListM"));
+            total -= 8;
         }
+        if (document.getElementById('list').contains(document.getElementById('itemInListL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListL"));
+            total -= 12;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListXL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListXL"));
+            total -= 16;
+        }
+        total += 4;
+    } else if (theID == 'mediumSize') {
+        document.getElementById('list').innerHTML += '<h2 id="itemInListM">Medium Pizza $' + 8 + '</h2>';
+        if (document.getElementById('list').contains(document.getElementById('itemInListL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListL"));
+            total -= 12;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListXL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListXL"));
+            total -= 16;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListsm'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListsm"));
+            total -= 4;
+        }
+        total += 8;
+    } else if (theID == 'largeSize') {
+        document.getElementById('list').innerHTML += '<h2 id="itemInListL">Large Pizza $' + 12 + '</h2>';
+        if (document.getElementById('list').contains(document.getElementById('itemInListM'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListM"));
+            total -= 8;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListXL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListXL"));
+            total -= 16;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListsm'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListsm"));
+            total -= 4;
+        }
+        total += 12;
+    } else if (theID == 'xlSize') {
+        document.getElementById('list').innerHTML += '<h2 id="itemInListXL">Extra Large Pizza $' + 16 + '</h2>';
+        if (document.getElementById('list').contains(document.getElementById('itemInListM'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListM"));
+            total -= 8;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListL'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListL"));
+            total -= 12;
+        }
+        if (document.getElementById('list').contains(document.getElementById('itemInListsm'))) {
+            document.getElementById('list').removeChild(document.getElementById("itemInListsm"));
+            total -= 4;
+        }
+        total += 16;
     }
     // if (evt.checked) {
     //     listID.innerHTML += '<p id="itemInList">5 Ingredient Combo! $' + 3 + '</p>';
@@ -706,7 +472,10 @@ function addText(evt) {
     //     listID.removeChild(document.getElementById("itemInList"));
 
     // }
+}
+
+
+function getTotal() {
     document.getElementById('list').innerHTML += '<h4 id="total">Total $' + total + '</h4>';
-    total += sizePrice;
-    console.log(total);
+
 }
