@@ -1,283 +1,499 @@
-function MyBacon(){
-     var img = document.getElementById('baconImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function MyBacon() {
+    var img = document.getElementById('baconImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function MyBaconLeft(){
-     var img = document.getElementById('baconLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function MyBaconLeft() {
+    var img = document.getElementById('baconLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function MyBaconRight(){
-     var img = document.getElementById('baconRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function MyBaconRight() {
+    var img = document.getElementById('baconRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
 
-function GreenPepper(){
-     var img = document.getElementById('GreenPepperImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function GreenPepper() {
+    var img = document.getElementById('GreenPepperImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function GreenPepperLeft(){
-     var img = document.getElementById('GreenPepperLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function GreenPepperLeft() {
+    var img = document.getElementById('GreenPepperLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function GreenPepperRight(){
-     var img = document.getElementById('GreenPepperRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function GreenPepperRight() {
+    var img = document.getElementById('GreenPepperRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function Ham(){
-     var img = document.getElementById('HamImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function Ham() {
+    var img = document.getElementById('HamImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function HamLeft(){
-     var img = document.getElementById('HamLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function HamLeft() {
+    var img = document.getElementById('HamLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function HamRight(){
-     var img = document.getElementById('HamRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-  
+function HamRight() {
+    var img = document.getElementById('HamRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+
 }
-function Mushroom(){
-      var img = document.getElementById('MushroomImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function Mushroom() {
+    var img = document.getElementById('MushroomImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function MushroomL(){
-      var img = document.getElementById('MushroomLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function MushroomL() {
+    var img = document.getElementById('MushroomLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function MushroomR(){
-      var img = document.getElementById('MushroomRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function MushroomR() {
+    var img = document.getElementById('MushroomRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function Olive(){
-          var img = document.getElementById('OliveImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function Olive() {
+    var img = document.getElementById('OliveImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function OliveLeft(){
-          var img = document.getElementById('OliveLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function OliveLeft() {
+    var img = document.getElementById('OliveLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function OliveRight(){
-          var img = document.getElementById('OliveRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function OliveRight() {
+    var img = document.getElementById('OliveRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
 
-function Onion(){
-          var img = document.getElementById('OnionImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function Onion() {
+    var img = document.getElementById('OnionImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function OnionLeft(){
-          var img = document.getElementById('OnionLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function OnionLeft() {
+    var img = document.getElementById('OnionLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function OnionRight(){
-          var img = document.getElementById('OnionRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function OnionRight() {
+    var img = document.getElementById('OnionRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function Pepporoni(){
-   var img = document.getElementById('PepperoniImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function Pepporoni() {
+    var img = document.getElementById('PepperoniImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function PepporoniLeft(){
-   var img = document.getElementById('PepperoniLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function PepporoniLeft() {
+    var img = document.getElementById('PepperoniLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function PepporoniRight(){
-   var img = document.getElementById('PepperoniRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function PepporoniRight() {
+    var img = document.getElementById('PepperoniRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function Pineapple(){
-      var img = document.getElementById('PineappleImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function Pineapple() {
+    var img = document.getElementById('PineappleImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function PineappleLeft(){
-      var img = document.getElementById('PineappleLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function PineappleLeft() {
+    var img = document.getElementById('PineappleLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function PineappleRight(){
-      var img = document.getElementById('PineappleRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
-}
-
-function RedPepper(){
-         var img = document.getElementById('RedPepperImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function PineappleRight() {
+    var img = document.getElementById('PineappleRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
 
-function RedPepperLeft(){
-         var img = document.getElementById('RedPepperLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+function RedPepper() {
+    var img = document.getElementById('RedPepperImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function RedPepperRight(){
-         var img = document.getElementById('RedPepperRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+
+function RedPepperLeft() {
+    var img = document.getElementById('RedPepperLImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function Sausage(){
+function RedPepperRight() {
+    var img = document.getElementById('RedPepperRImg');
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+}
+function Sausage() {
     var img = document.getElementById('SausageImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function SausageLeft(){
+function SausageLeft() {
     var img = document.getElementById('SausageLImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
 }
-function SausageRight(){
+function SausageRight() {
     var img = document.getElementById('SausageRImg');
-     if(img.style.visibility === 'visible'){
-         img.style.visibility = "hidden";
-     }
-     else{
-         img.style.visibility = "visible";
-     }
+    if (img.style.visibility === 'visible') {
+        img.style.visibility = "hidden";
+    }
+    else {
+        img.style.visibility = "visible";
+    }
+}
+
+function addText(evt) {
+    var theID = evt.id;
+    var listID = document.getElementById('list');
+    if (theID == 'bacon') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList1">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList1"));
+        }
+    } else if (theID == 'baconL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList2">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList2"));
+        }
+
+    } else if (theID == 'baconR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList3">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList3"));
+        }
+
+    } else if (theID == 'greenPepper') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList4">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList4"));
+        }
+
+    } else if (theID == 'greenPepperL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList5">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList5"));
+        }
+
+    } else if (theID == 'greenPepperR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList6">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList6"));
+        }
+
+    } else if (theID == 'ham') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList7">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList7"));
+        }
+
+    } else if (theID == 'hamL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList8">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList8"));
+        }
+
+    } else if (theID == 'hamR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList9">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList9"));
+        }
+
+    } else if (theID == 'mushroom') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList10">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList10"));
+        }
+
+    } else if (theID == 'mushroomL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList11">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList11"));
+        }
+
+    } else if (theID == 'mushroomR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList12">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList12"));
+        }
+
+    } else if (theID == 'olive') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList13">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList13"));
+        }
+
+    } else if (theID == 'oliveL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList14">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList14"));
+        }
+
+    } else if (theID == 'oliveR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList15">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList15"));
+        }
+
+    } else if (theID == 'onion') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList16">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList16"));
+        }
+
+    } else if (theID == 'onionL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList17">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList17"));
+        }
+
+    } else if (theID == 'onionR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList18">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList18"));
+        }
+
+    } else if (theID == 'pepperoni') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList19">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList19"));
+        }
+
+    } else if (theID == 'pepperoniL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList20">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInLis20t"));
+        }
+
+    } else if (theID == 'pepperoniR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList21">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList21"));
+        }
+
+    } else if (theID == 'pineapple') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList22">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList22"));
+        }
+
+    } else if (theID == 'pineappleL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList23">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList23"));
+        }
+
+    } else if (theID == 'pineappleR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList24">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList24"));
+        }
+
+    } else if (theID == 'redPepper') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList25">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList25"));
+        }
+
+    } else if (theID == 'redPepperL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList26">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList26"));
+        }
+
+    } else if (theID == 'redPepperR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList27>hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList27"));
+        }
+
+    } else if (theID == 'sausage') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList28">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList28"));
+        }
+
+    } else if (theID == 'sausageL') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList29">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList29"));
+        }
+
+    } else if (theID == 'sausageR') {
+        if (evt.checked) {
+            listID.innerHTML += '<p id="itemInList30">hi</p>';
+        } else {
+            listID.removeChild(document.getElementById("itemInList30"));
+        }
+
+    }
+    // }
 }
