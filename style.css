@@ -17,13 +17,11 @@ body{
 }
 .homehead{
      border: 3px solid black;
-     background: #56799c;
 
 }
 .centerdiv{
      border: 3px solid black;
     height: 75px;
-
 }
 .middlebody,.upperpage{
      border: 3px solid black;
@@ -58,21 +56,7 @@ body{
     border: 2px solid black;
     height:80px;
     width: 35%;
-
-body {
-        /*background: #84919c;*/
-        /*background: #e3e3e3;*/
-        background: #d0e0f6;
-}
-
-html {
-    /*background: #8f9f9f;*/
-    /*background: #fff;*/
-        /*background: #80b5e8;*/
-                background: #f3f7f0;
-
-
-}    margin: 15px;
+    margin: 15px;
 }
 .middlecustom{
     display: flex;
@@ -191,4 +175,182 @@ color: white;
 }
 img{
     margin-bottom: 50px;
+}
+#pizza{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+/*#baconImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}*/
+
+#bacon {
+       visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px; 
+}
+#baconLImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#baconRImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+
+#GreenPepperImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#GreenPepperLImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#GreenPepperRImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+
+#HamImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#HamLImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#HamRImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#MushroomImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px; 
+}
+#MushroomLImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px; 
+}
+#MushroomRImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px; 
+}
+#OliveImg{
+       visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;  
+}
+#OliveLImg{
+       visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;  
+}
+#OliveRImg{
+       visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;  
+}
+#OnionImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#OnionLImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#OnionRImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PepperoniImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PepperoniLImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PepperoniRImg{
+     visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PineappleImg{
+        visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PineappleLImg{
+        visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#PineappleRImg{
+        visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+
+#RedPepperImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#RedPepperLImg{
+    visibility: hidden;
+    margin-bottom: 350px;
+    margin-left:  65px;
+}
+#RedPepperRImg{
+    visibility: hidden;
+    /*margin-bottom: 350px;
+    margin-left:  65px;*/
+    position: relative;
+              top: 350px;
+          left:65px; 
+}
+#SausageImg{
+      visibility: hidden;
+    /*margin-bottom: 350px;
+    margin-left:  65px;*/
+          position: relative;
+          top: 350px;
+          left:65px; 
+}
+
+#SausageLImg{
+      visibility: hidden;
+    /*margin-bottom: 350px;
+    margin-left:  65px;*/
+          position: relative;
+          top: 350px;
+          left:65px; 
+}
+#SausageRImg{
+      visibility: hidden;
+      position: relative;
+      z-index: 3;
+    /*margin-bottom: 350px;
+    margin-left:  ;*/
+          top: 350px;
+          left:65px; 
+
 }

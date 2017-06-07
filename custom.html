@@ -53,12 +53,36 @@
 
         <div class="middlecustom">
             <div class="toppings">
-        <input type="checkbox" name="fruit" value="Apple"> Apple
-        <input type="checkbox" name="fruit" value="Orange"> Orange 
-        <input type="checkbox" name="fruit" value="Banana"> Banana 
-        <input type="checkbox" name="fruit" value="Apple"> Apple
-        <input type="checkbox" name="fruit" value="Orange"> Orange 
-        <input type="checkbox" name="fruit" value="Banana"> Banana 
+        <input type="checkbox" onclick="MyBacon()" id='baconImg' > Bacon 
+        <input type="checkbox" onclick="MyBaconLeft()" > Bacon Left
+        <input type="checkbox" onclick="MyBaconRight()" > Bacon Right
+        <input type="checkbox" onclick="GreenPepper()" > Green Pepper
+        <input type="checkbox" onclick="GreenPepperLeft()" > Green Pepper Left
+        <input type="checkbox" onclick="GreenPepperRight()" > Green Pepper Right
+        <input type="checkbox" onclick="Ham()" > Ham
+        <input type="checkbox" onclick="HamLeft()" > Ham Left
+        <input type="checkbox" onclick="HamRight()" > Ham Right
+        <input type="checkbox" onclick="Mushroom()" > Mushroom
+        <input type="checkbox" onclick="MushroomL()" > Mushroom Left
+        <input type="checkbox" onclick="MushroomR()" > Mushroom Right
+        <input type="checkbox" onclick="Olive()" > Olive
+        <input type="checkbox" onclick="OliveLeft()" > Olive Left
+        <input type="checkbox" onclick="OliveRight()" > Olive Right
+        <input type="checkbox" onclick="Onion()" > Onion
+        <input type="checkbox" onclick="OnionLeft()" > Onion Left
+        <input type="checkbox" onclick="OnionRight()" > Onion Right
+        <input type="checkbox" onclick="Pepporoni()" > Pepporoni
+        <input type="checkbox" onclick="PepporoniLeft()" > Pepporoni Left
+        <input type="checkbox" onclick="PepporoniRight()" > Pepporoni Right
+        <input type="checkbox" onclick="Pineapple()" > Pineapple  
+        <input type="checkbox" onclick="PineappleLeft()" > Pineapple Left
+        <input type="checkbox" onclick="PineappleRight()" > Pineapple  Right
+        <input type="checkbox" onclick="RedPepper()" > Red Pepper
+        <input type="checkbox" onclick="RedPepperLeft()" > Red Pepper Left
+        <input type="checkbox" onclick="RedPepperRight()" > Red Pepper Right
+        <input type="checkbox" onclick="Sausage()" > Sausage
+        <input type="checkbox" onclick="SausageLeft()" > Sausage Left
+        <input type="checkbox" onclick="SausageRight()" > Sausage Right
 
 
             </div>
@@ -66,7 +90,40 @@
             <div class="outsideorder">
             <div class="ordercontainer">
 
-                <div class="imagediv"></div>
+                <div class="imagediv" id="imgDiv">
+                    <img id="pizza" src="images/pizza.png">
+              <img src = "images/baconPizzaLeft.png" id="baconLImg">
+              <img src = "images/baconPizzaRight.png" id="baconRImg">
+              <img src = "images/greenPepperPizza.png" id="GreenPepperImg">
+              <img src = "images/greenPepperPizzaLeft.png" id="GreenPepperLImg">
+              <img src = "images/greenPepperPizzaRight.png" id="GreenPepperRImg"> 
+              <img src = "images/hamPizza.png" id="HamImg"> 
+              <img src = "images/hamPizzaLeft.png" id="HamLImg">
+              <img src = "images/hamPizzaRight.png" id="HamRImg">
+              <img src = "images/mushroomPizza.png" id="MushroomImg">
+              <img src = "images/mushroomPizzaLeft.png" id="MushroomLImg">
+              <img src = "images/mushroomPizzaRight.png" id="MushroomRImg">
+              <img src = "images/olivePizza.png" id="OliveImg">
+              <img src = "images/olivePizzaLeft.png" id="OliveLImg">
+              <img src = "images/olivePizzaRight.png" id="OliveRImg">
+              <img src = "images/onionPizza.png" id="OnionImg">
+              <img src = "images/onionPizzaLeft.png" id="OnionLImg">
+              <img src = "images/onionPizzaRight.png" id="OnionRImg">
+              <img src = "images/pepporoniPizzapsd.png" id="PepperoniImg">
+              <img src = "images/pepporoniPizzaLeft.png" id="PepperoniLImg">
+              <img src = "images/pepporoniPizzaRight.png" id="PepperoniRImg">
+              <img src = "images/pinapplePizza.png" id="PineappleImg">
+               <img src = "images/pinapplePizzaLeft.png" id="PineappleLImg">
+               <img src = "images/pinapplePizzaRight.png" id="PineappleRImg">
+               <img src = "images/redPepperPizza.png" id="RedPepperImg">  
+               <img src = "images/redPepperPizzaLeft.png" id="RedPepperLImg">
+              <img src = "images/redPepperPizzaRight.png" id="RedPepperRImg">  
+               <img src = "images/sausagePizza.png" id="SausageImg">  
+               <img src = "images/sausagePizzaLeft.png" id="SausageLImg">
+              <img src = "images/sausagePizzaRight.png" id="SausageRImg">
+              
+              
+                </div>
                 <div class="listdiv"></div>
               
             </div>
@@ -88,6 +145,8 @@
         </div>
 
 
+    
+    <script src="script.js" ></script>
 
     </body>
 </html>
