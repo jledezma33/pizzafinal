@@ -14,6 +14,5 @@ function checkvalue(fieldvalue) {
             break;
         case 5:
             document.getElementById("image").innerHTML = "<img src ='images/veggie.png'>";
-            break;
     }
 }

@@ -282,6 +282,24 @@ function SausageRight() {
     }
 }
 var total = 0;
+var sizePrice = 0;
+
+function changeSizePrice(size){
+    switch(size){
+        case 1:
+            sizePrice = 4;
+            break;
+         case 2:
+            sizePrice = 8;
+            break;
+         case 3:
+            sizePrice = 12;
+            break;
+         case 4:
+            sizePrice = 16;
+            break;
+    }
+}
 
 function addText(evt) {
     var oneDollar = 1;
@@ -689,5 +707,6 @@ function addText(evt) {
 
     // }
     document.getElementById('list').innerHTML += '<h4 id="total">Total $' + total + '</h4>';
+    total += sizePrice;
     console.log(total);
 }
