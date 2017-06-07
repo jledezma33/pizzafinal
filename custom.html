@@ -55,36 +55,36 @@
 
         <div class="middlecustom">
             <div class="toppings">
-                <p><input type="checkbox" onclick="MyBacon()"> Bacon
-                    <input type="checkbox" onclick="MyBaconLeft()"> Bacon Left
-                    <input type="checkbox" onclick="MyBaconRight()"> Bacon Right <br />
-                    <input type="checkbox" onclick="GreenPepper()"> Green Pepper
-                    <input type="checkbox" onclick="GreenPepperLeft()"> Green Pepper Left
-                    <input type="checkbox" onclick="GreenPepperRight()"> Green Pepper Right <br />
-                    <input type="checkbox" onclick="Ham()"> Ham
-                    <input type="checkbox" onclick="HamLeft()"> Ham Left
-                    <input type="checkbox" onclick="HamRight()"> Ham Right <br />
-                    <input type="checkbox" onclick="Mushroom()"> Mushroom
-                    <input type="checkbox" onclick="MushroomL()"> Mushroom Left
-                    <input type="checkbox" onclick="MushroomR()"> Mushroom Right <br />
-                    <input type="checkbox" onclick="Olive()"> Olive
-                    <input type="checkbox" onclick="OliveLeft()"> Olive Left
-                    <input type="checkbox" onclick="OliveRight()"> Olive Right <br />
-                    <input type="checkbox" onclick="Onion()"> Onion
-                    <input type="checkbox" onclick="OnionLeft()"> Onion Left
-                    <input type="checkbox" onclick="OnionRight()"> Onion Right <br />
-                    <input type="checkbox" onclick="Pepporoni()"> Pepporoni
-                    <input type="checkbox" onclick="PepporoniLeft()"> Pepporoni Left
-                    <input type="checkbox" onclick="PepporoniRight()"> Pepporoni Right <br />
-                    <input type="checkbox" onclick="Pineapple()"> Pineapple
-                    <input type="checkbox" onclick="PineappleLeft()"> Pineapple Left
-                    <input type="checkbox" onclick="PineappleRight()"> Pineapple Right <br />
-                    <input type="checkbox" onclick="RedPepper()"> Red Pepper
-                    <input type="checkbox" onclick="RedPepperLeft()"> Red Pepper Left
-                    <input type="checkbox" onclick="RedPepperRight()"> Red Pepper Right<br />
-                    <input type="checkbox" onclick="Sausage()"> Sausage
-                    <input type="checkbox" onclick="SausageLeft()"> Sausage Left
-                    <input type="checkbox" onclick="SausageRight()"> Sausage Right
+                <p><input type="checkbox" onclick="MyBacon();addText(this)" id='bacon'> Bacon
+                <input type="checkbox" onclick="MyBaconLeft();addText(this)" id='baconL'> Bacon Left
+                <input type="checkbox" onclick="MyBaconRight();addText(this)" id='baconR'> Bacon Right <br />
+                <input type="checkbox" onclick="GreenPepper();addText(this)" id='greenPepper'> Green Pepper
+                <input type="checkbox" onclick="GreenPepperLeft();addText(this)" id='greenPepperL'> Green Pepper Left
+                <input type="checkbox" onclick="GreenPepperRight();addText(this)" id='greenPepperR'> Green Pepper Right <br />
+                <input type="checkbox" onclick="Ham();addText(this)" id='ham'> Ham
+                <input type="checkbox" onclick="HamLeft();addText(this)" id='hamL'> Ham Left
+                <input type="checkbox" onclick="HamRight();addText(this)" id='hamR'> Ham Right <br />
+                <input type="checkbox" onclick="Mushroom();addText(this)" id='mushroom'> Mushroom
+                <input type="checkbox" onclick="MushroomL();addText(this)" id='mushroomL'> Mushroom Left
+                <input type="checkbox" onclick="MushroomR();addText(this)" id='mushroomR'> Mushroom Right <br />
+                <input type="checkbox" onclick="Olive();addText(this)" id='olive'> Olive
+                <input type="checkbox" onclick="OliveLeft();addText(this)" id='oliveL'> Olive Left
+                <input type="checkbox" onclick="OliveRight();addText(this)" id='oliveR'> Olive Right <br />
+                <input type="checkbox" onclick="Onion();addText(this)" id='onion'> Onion
+                <input type="checkbox" onclick="OnionLeft();addText(this)" id='onionL'> Onion Left
+                <input type="checkbox" onclick="OnionRight();addText(this)" id='onionR'> Onion Right <br />
+                <input type="checkbox" onclick="Pepporoni();addText(this)" id='pepperoni'> Pepporoni
+                <input type="checkbox" onclick="PepporoniLeft();addText(this)" id='pepperoniL'> Pepporoni Left
+                <input type="checkbox" onclick="PepporoniRight();addText(this)" id='pepperoniR'> Pepporoni Right <br />
+                <input type="checkbox" onclick="Pineapple();addText(this)" id='pineapple'> Pineapple
+                <input type="checkbox" onclick="PineappleLeft();addText(this)" id='pineappleL'> Pineapple Left
+                <input type="checkbox" onclick="PineappleRight();addText(this)" id='pineappleR'> Pineapple Right <br />
+                <input type="checkbox" onclick="RedPepper();addText(this)" id='redPepper'> Red Pepper
+                <input type="checkbox" onclick="RedPepperLeft();addText(this)" id='redPepperL'> Red Pepper Left
+                <input type="checkbox" onclick="RedPepperRight();addText(this)" id='redPepperR'> Red Pepper Right<br />
+                <input type="checkbox" onclick="Sausage();addText(this)" id='sausage'> Sausage
+                <input type="checkbox" onclick="SausageLeft();addText(this)" id='sausageL'> Sausage Left
+                <input type="checkbox" onclick="SausageRight();addText(this)" id='sausageR'> Sausage Right
                 </p>
 
             </div>
@@ -127,7 +127,7 @@
 
 
                     </div>
-                    <div class="listdiv"></div>
+                    <div class="listdiv" id='list'></div>
 
                 </div>
                 <div class="buttoncontainer">
