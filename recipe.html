@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="main-container">
-            <header class="homehead2">
-                <div class="centerdiv2"></div>
-            </header>
-     <div class="upperpage">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="homehead2">
+            <div class="centerdiv2"></div>
+        </header>
+        <div class="upperpage">
             <div class="upperleft"></div>
             <div class="upperright"></div>
-     </div>
+        </div>
 
         <div class="middlecustom">
-            <div class="toppings"></div>
+            <div class="toppings">
+                <form>
+                    <input type="radio" name="pizza" value="Hawaiian" onclick='checkvalue(1)'> Hawaiian<br>
+                    <input type="radio" name="pizza" value="Meat Lovers" onclick='checkvalue(2)'> Meat Lovers<br>
+                    <input type="radio" name="pizza" value="Supreme" onclick='checkvalue(3)'> Supreme<br>
+                    <input type="radio" name="pizza" value="Super Supreme" onclick='checkvalue(4)'> Super Supreme<br>
+                    <input type="radio" name="pizza" value="Veggie" onclick='checkvalue(5)'> Veggie<br>
+                </form>
+            </div>
 
             <div class="outsideorder">
-            <div class="ordercontainer">
+                <div class="ordercontainer">
 
-                <div class="imagediv"></div>
-                <div class="listdiv"></div>
-              
+                    <div id="image" class="imagediv"></div>
+                    <div class="listdiv"></div>
+
+                </div>
+                <div class="buttoncontainer">
+                    <div class="checkoutdiv"></div>
+
+                </div>
+
             </div>
-            <div class="buttoncontainer">
-              <div class="checkoutdiv"></div>
-              
-              </div>
-
-              </div>
 
         </div>
-        </div>
+    </div>
 
+    <script src="recipes.js"></script>
 
+</body>
 
-    </body>
 </html>
