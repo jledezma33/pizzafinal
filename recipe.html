@@ -12,13 +12,13 @@
         </header>
         <div class="upperpage">
             <div class="upperleft">
-              <button id="smallSize" type="button" onclick="changeSizePrice(1)">Small</button>
+              <button id="smallSize" type="button" onclick="sizePrice(this)" id='small'>Small</button>
 
-                <button id="mediumSize" type="button" onclick="changeSizePrice(2)">Medium</button>
+                <button id="mediumSize" type="button" onclick="sizePrice(this)" id='medium'>Medium</button>
 
-                <button id="largeSize" type="button" onclick="changeSizePrice(3)">Large</button>
+                <button id="largeSize" type="button" onclick="sizePrice(this)" id='large'>Large</button>
 
-                <button id="xlSize" type="button" onclick="changeSizePrice(4)">X-Large</button>
+                <button id="xlSize" type="button" onclick="sizePrice(this)" id='xl'>X-Large</button>
             </div>
             <div class="upperright">
                 <img src="images/specialdeal2.png">
@@ -28,11 +28,11 @@
         <div class="middlecustom">
             <div class="toppings">
                 <form>
-                    <input type="radio" name="pizza" value="Hawaiian" onclick='checkvalue(1);loadRecipe(3)'> Hawaiian<br>
-                    <input type="radio" name="pizza" value="Meat Lovers" onclick='checkvalue(2);loadRecipe(3)'> Meat Lovers'<br>
-                    <input type="radio" name="pizza" value="Supreme" onclick='checkvalue(3);loadRecipe(3)'> Supreme<br>
-                    <input type="radio" name="pizza" value="Super Supreme" onclick='checkvalue(4);loadRecipe(5)'> Super Supreme<br>
-                    <input type="radio" name="pizza" value="Veggie" onclick='checkvalue(5);loadRecipe(3)'> Veggie<br>
+                    <input type="checkbox" name="pizza" value="Hawaiian" onclick='sizePrice(this)' id='h'> Hawaiian<br>
+                    <input type="checkbox" name="pizza" value="Meat Lovers" onclick='sizePrice(this)' id='m'> Meat Lovers'<br>
+                    <input type="checkbox" name="pizza" value="Supreme" onclick='checkvalue(3);sizePrice(this)' id='s'> Supreme<br>
+                    <input type="checkbox" name="pizza" value="Super Supreme" onclick='checkvalue(4);sizePrice(this)' id='ss'> Super Supreme<br>
+                    <input type="checkbox" name="pizza" value="Veggie" onclick='checkvalue(5);sizePrice(this)' id='v'> Veggie<br>
                 </form>
             </div>
 
