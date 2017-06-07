@@ -281,219 +281,413 @@ function SausageRight() {
         img.style.visibility = "visible";
     }
 }
+var total = 0;
 
 function addText(evt) {
+    var oneDollar = 1;
     var theID = evt.id;
     var listID = document.getElementById('list');
+    // if (listID.getElementsByTagName("p").length != 5) {
     if (theID == 'bacon') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList1">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            }
+            listID.innerHTML += '<p id="itemInList1">Bacon Added To Pizza $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList1"));
+
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
     } else if (theID == 'baconL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList2">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList2">Bacon Added To Left Side $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList2"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
-
     } else if (theID == 'baconR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList3">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList3">Bacon Added To Right Side $' + oneDollar + '</p>';
+
         } else {
             listID.removeChild(document.getElementById("itemInList3"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'greenPepper') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList4">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList4">Green Peppers Added $' + oneDollar + '</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList4"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'greenPepperL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList5">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList5">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList5"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'greenPepperR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList6">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList6">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList6"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'ham') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList7">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList7">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList7"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'hamL') {
         if (evt.checked) {
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            }
             listID.innerHTML += '<p id="itemInList8">hi</p>';
+
         } else {
             listID.removeChild(document.getElementById("itemInList8"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'hamR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList9">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList9">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList9"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'mushroom') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList10">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList10">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList10"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'mushroomL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList11">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList11">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList11"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'mushroomR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList12">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList12">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList12"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'olive') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList13">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList13">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList13"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'oliveL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList14">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList14">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList14"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'oliveR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList15">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList15">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList15"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'onion') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList16">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList16">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList16"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'onionL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList17">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList17">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList17"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'onionR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList18">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList18">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList18"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pepperoni') {
         if (evt.checked) {
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            }
             listID.innerHTML += '<p id="itemInList19">hi</p>';
+
         } else {
             listID.removeChild(document.getElementById("itemInList19"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pepperoniL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList20">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList20">hi</p>';
         } else {
-            listID.removeChild(document.getElementById("itemInLis20t"));
+            listID.removeChild(document.getElementById("itemInList20"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pepperoniR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList21">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList21">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList21"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pineapple') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList22">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList22">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList22"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pineappleL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList23">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList23">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList23"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'pineappleR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList24">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList24">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList24"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'redPepper') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList25">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList25">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList25"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'redPepperL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList26">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList26">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList26"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'redPepperR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList27>hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList27">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList27"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'sausage') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList28">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList28">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList28"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'sausageL') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList29">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList29">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList29"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     } else if (theID == 'sausageR') {
         if (evt.checked) {
-            listID.innerHTML += '<p id="itemInList30">hi</p>';
+            if (listID.getElementsByTagName("p").length != 0) {
+                total += 1;
+            } listID.innerHTML += '<p id="itemInList30">hi</p>';
         } else {
             listID.removeChild(document.getElementById("itemInList30"));
+            if (listID.getElementsByTagName("p").length != 0) {
+                total -= 1;
+            }
         }
 
     }
+    // } 
+    if (listID.getElementsByTagName("p").length == 5) {
+        total = 3;
+        listID.innerHTML += '<p id="itemInList">5 Ingredient Combo! $' + 3 + '</p>';
+
+    }
+    if (listID.getElementsByTagName("p").length == 6) {
+        if (listID.contains(document.getElementById('itemInList'))) {
+            listID.removeChild(document.getElementById("itemInList"));
+            total = 3;
+
+        } else {
+            total = 5;
+        }
+    }
+    if (listID.getElementsByTagName("p").length == 4) {
+        if (listID.contains(document.getElementById('itemInList'))) {
+            listID.removeChild(document.getElementById("itemInList"));
+        }
+        total = 3;
+
+
+    }
+    if (listID.getElementsByTagName("p").length == 7) {
+        if (listID.contains(document.getElementById('itemInList'))) {
+            listID.removeChild(document.getElementById("itemInList"));
+        }
+    }
+    // if (evt.checked) {
+    //     listID.innerHTML += '<p id="itemInList">5 Ingredient Combo! $' + 3 + '</p>';
+    // } else {
+    //     listID.removeChild(document.getElementById("itemInList"));
+
     // }
+    document.getElementById('list').innerHTML += '<h6 id="total">Total $' + total + '</h6>';
+    console.log(total);
 }

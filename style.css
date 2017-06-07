@@ -395,3 +395,7 @@ display: block;
  margin: auto;
 bottom: 8490px;
 }
+
+p {
+    margin: 2px;
+}
