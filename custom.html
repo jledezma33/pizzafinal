@@ -13,17 +13,17 @@
         <div class="upperpage">
             <div class="upperleft">
 
-                <button id="smallSize" type="button" onclick="alert('Hello world!')">Small</button>
+                <button id="smallSize" type="button" onclick="changeSizePrice(1)">Small</button>
 
-<button id="mediumSize" type="button" onclick="alert('Hello world!')">Medium</button>
+                <button id="mediumSize" type="button" onclick="changeSizePrice(2)">Medium</button>
 
-<button id="largeSize" type="button" onclick="alert('Hello world!')">Large</button>
+                <button id="largeSize" type="button" onclick="changeSizePrice(3)">Large</button>
 
-<button id="xlSize" type="button" onclick="alert('Hello world!')">X-Large</button>
+                <button id="xlSize" type="button" onclick="changeSizePrice(4)">X-Large</button>
 
 
 
-<!--<a href="#">
+                <!--<a href="#">
           <div id='smallSize' class="div-btn"> 
             Small
             </div>
@@ -35,7 +35,7 @@
             </div>
             </a>-->
 
-<!--<a href="#">
+                <!--<a href="#">
             <div id='largeSize' class="div-btn"> 
             Large
             </div>
@@ -47,110 +47,114 @@
             </div>
             </a>-->
 
-</div>
-<div class="upperright">
-    <img src="images/specialdeal.png">
-</div>
-</div>
+            </div>
+            <div class="upperright">
+                <img src="images/specialdeal.png">
+            </div>
+        </div>
 
-<div class="middlecustom">
-    <div class="toppings">
-<p>
-<input type="checkbox" onclick="MyBacon();addText(this)" id='bacon'> Bacon
-<input type="checkbox" onclick="MyBaconLeft();addText(this)" id='baconL'> Bacon Left
-<input type="checkbox" onclick="MyBaconRight();addText(this)" id='baconR'> Bacon Right <br />
-<input type="checkbox" onclick="GreenPepper();addText(this)" id='greenPepper'> Green Pepper
-<input type="checkbox" onclick="GreenPepperLeft();addText(this)" id='greenPepperL'> Green Pepper Left
-<input type="checkbox" onclick="GreenPepperRight();addText(this)" id='greenPepperR'> Green Pepper Right <br />
-<input type="checkbox" onclick="Ham();addText(this)" id='ham'> Ham
-<input type="checkbox" onclick="HamLeft();addText(this)" id='hamL'> Ham Left
-<input type="checkbox" onclick="HamRight();addText(this)" id='hamR'> Ham Right <br />
-<input type="checkbox" onclick="Mushroom();addText(this)" id='mushroom'> Mushroom
-<input type="checkbox" onclick="MushroomL();addText(this)" id='mushroomL'> Mushroom Left
-<input type="checkbox" onclick="MushroomR();addText(this)" id='mushroomR'> Mushroom Right <br />
-<input type="checkbox" onclick="Olive();addText(this)" id='olive'> Olive
-<input type="checkbox" onclick="OliveLeft();addText(this)" id='oliveL'> Olive Left
-<input type="checkbox" onclick="OliveRight();addText(this)" id='oliveR'> Olive Right <br />
-<input type="checkbox" onclick="Onion();addText(this)" id='onion'> Onion
-<input type="checkbox" onclick="OnionLeft();addText(this)" id='onionL'> Onion Left
-<input type="checkbox" onclick="OnionRight();addText(this)" id='onionR'> Onion Right <br />
-<input type="checkbox" onclick="Pepporoni();addText(this)" id='pepperoni'> Pepporoni
-<input type="checkbox" onclick="PepporoniLeft();addText(this)" id='pepperoniL'> Pepporoni Left
-<input type="checkbox" onclick="PepporoniRight();addText(this)" id='pepperoniR'> Pepporoni Right <br />
-<input type="checkbox" onclick="Pineapple();addText(this)" id='pineapple'> Pineapple
-<input type="checkbox" onclick="PineappleLeft();addText(this)" id='pineappleL'> Pineapple Left
-<input type="checkbox" onclick="PineappleRight();addText(this)" id='pineappleR'> Pineapple Right <br />
-<input type="checkbox" onclick="RedPepper();addText(this)" id='redPepper'> Red Pepper
-<input type="checkbox" onclick="RedPepperLeft();addText(this)" id='redPepperL'> Red Pepper Left
-<input type="checkbox" onclick="RedPepperRight();addText(this)" id='redPepperR'> Red Pepper Right<br />
-<input type="checkbox" onclick="Sausage();addText(this)" id='sausage'> Sausage
-<input type="checkbox" onclick="SausageLeft();addText(this)" id='sausageL'> Sausage Left
-<input type="checkbox" onclick="SausageRight();addText(this)" id='sausageR'> Sausage Right
-</p>
+        <div class="middlecustom">
+            <div class="toppings">
+                <p>
+                    <input type="checkbox" onclick="MyBacon();addText(this)" id='bacon'> Bacon
+                    <input type="checkbox" onclick="MyBaconLeft();addText(this)" id='baconL'> Bacon Left
+                    <input type="checkbox" onclick="MyBaconRight();addText(this)" id='baconR'> Bacon Right <br />
+                    <input type="checkbox" onclick="GreenPepper();addText(this)" id='greenPepper'> Green Pepper
+                    <input type="checkbox" onclick="GreenPepperLeft();addText(this)" id='greenPepperL'> Green Pepper Left
+                    <input type="checkbox" onclick="GreenPepperRight();addText(this)" id='greenPepperR'> Green Pepper Right
+                    <br />
+                    <input type="checkbox" onclick="Ham();addText(this)" id='ham'> Ham
+                    <input type="checkbox" onclick="HamLeft();addText(this)" id='hamL'> Ham Left
+                    <input type="checkbox" onclick="HamRight();addText(this)" id='hamR'> Ham Right <br />
+                    <input type="checkbox" onclick="Mushroom();addText(this)" id='mushroom'> Mushroom
+                    <input type="checkbox" onclick="MushroomL();addText(this)" id='mushroomL'> Mushroom Left
+                    <input type="checkbox" onclick="MushroomR();addText(this)" id='mushroomR'> Mushroom Right <br />
+                    <input type="checkbox" onclick="Olive();addText(this)" id='olive'> Olive
+                    <input type="checkbox" onclick="OliveLeft();addText(this)" id='oliveL'> Olive Left
+                    <input type="checkbox" onclick="OliveRight();addText(this)" id='oliveR'> Olive Right <br />
+                    <input type="checkbox" onclick="Onion();addText(this)" id='onion'> Onion
+                    <input type="checkbox" onclick="OnionLeft();addText(this)" id='onionL'> Onion Left
+                    <input type="checkbox" onclick="OnionRight();addText(this)" id='onionR'> Onion Right <br />
+                    <input type="checkbox" onclick="Pepporoni();addText(this)" id='pepperoni'> Pepporoni
+                    <input type="checkbox" onclick="PepporoniLeft();addText(this)" id='pepperoniL'> Pepporoni Left
+                    <input type="checkbox" onclick="PepporoniRight();addText(this)" id='pepperoniR'> Pepporoni Right <br
+                    />
+                    <input type="checkbox" onclick="Pineapple();addText(this)" id='pineapple'> Pineapple
+                    <input type="checkbox" onclick="PineappleLeft();addText(this)" id='pineappleL'> Pineapple Left
+                    <input type="checkbox" onclick="PineappleRight();addText(this)" id='pineappleR'> Pineapple Right <br
+                    />
+                    <input type="checkbox" onclick="RedPepper();addText(this)" id='redPepper'> Red Pepper
+                    <input type="checkbox" onclick="RedPepperLeft();addText(this)" id='redPepperL'> Red Pepper Left
+                    <input type="checkbox" onclick="RedPepperRight();addText(this)" id='redPepperR'> Red Pepper Right<br
+                    />
+                    <input type="checkbox" onclick="Sausage();addText(this)" id='sausage'> Sausage
+                    <input type="checkbox" onclick="SausageLeft();addText(this)" id='sausageL'> Sausage Left
+                    <input type="checkbox" onclick="SausageRight();addText(this)" id='sausageR'> Sausage Right
+                </p>
 
-</div>
+            </div>
 
-<div class="outsideorder">
-    <div class="ordercontainer">
+            <div class="outsideorder">
+                <div class="ordercontainer">
 
-        <div class="imagediv" id="imgDiv">
-            <img id="pizza" src="images/pizza.png">
-            <img src="images/baconPizza.png" id="baconImg">
-            <img src="images/baconPizzaLeft.png" id="baconLImg">
-            <img src="images/baconPizzaRight.png" id="baconRImg">
-            <img src="images/greenPepperPizza.png" id="GreenPepperImg">
-            <img src="images/greenPepperPizzaLeft.png" id="GreenPepperLImg">
-            <img src="images/greenPepperPizzaRight.png" id="GreenPepperRImg">
-            <img src="images/hamPizza.png" id="HamImg">
-            <img src="images/hamPizzaLeft.png" id="HamLImg">
-            <img src="images/hamPizzaRight.png" id="HamRImg">
-            <img src="images/mushroomPizza.png" id="MushroomImg">
-            <img src="images/mushroomPizzaLeft.png" id="MushroomLImg">
-            <img src="images/mushroomPizzaRight.png" id="MushroomRImg">
-            <img src="images/olivePizza.png" id="OliveImg">
-            <img src="images/olivePizzaLeft.png" id="OliveLImg">
-            <img src="images/olivePizzaRight.png" id="OliveRImg">
-            <img src="images/onionPizza.png" id="OnionImg">
-            <img src="images/onionPizzaLeft.png" id="OnionLImg">
-            <img src="images/onionPizzaRight.png" id="OnionRImg">
-            <img src="images/pepporoniPizzapsd.png" id="PepperoniImg">
-            <img src="images/pepporoniPizzaLeft.png" id="PepperoniLImg">
-            <img src="images/pepporoniPizzaRight.png" id="PepperoniRImg">
-            <img src="images/pinapplePizza.png" id="PineappleImg">
-            <img src="images/pinapplePizzaLeft.png" id="PineappleLImg">
-            <img src="images/pinapplePizzaRight.png" id="PineappleRImg">
-            <img src="images/redPepperPizza.png" id="RedPepperImg">
-            <img src="images/redPepperPizzaLeft.png" id="RedPepperLImg">
-            <img src="images/redPepperPizzaRight.png" id="RedPepperRImg">
-            <img src="images/sausagePizza.png" id="SausageImg">
-            <img src="images/sausagePizzaLeft.png" id="SausageLImg">
-            <img src="images/sausagePizzaRight.png" id="SausageRImg">
+                    <div class="imagediv" id="imgDiv">
+                        <img id="pizza" src="images/pizza.png">
+                        <img src="images/baconPizza.png" id="baconImg">
+                        <img src="images/baconPizzaLeft.png" id="baconLImg">
+                        <img src="images/baconPizzaRight.png" id="baconRImg">
+                        <img src="images/greenPepperPizza.png" id="GreenPepperImg">
+                        <img src="images/greenPepperPizzaLeft.png" id="GreenPepperLImg">
+                        <img src="images/greenPepperPizzaRight.png" id="GreenPepperRImg">
+                        <img src="images/hamPizza.png" id="HamImg">
+                        <img src="images/hamPizzaLeft.png" id="HamLImg">
+                        <img src="images/hamPizzaRight.png" id="HamRImg">
+                        <img src="images/mushroomPizza.png" id="MushroomImg">
+                        <img src="images/mushroomPizzaLeft.png" id="MushroomLImg">
+                        <img src="images/mushroomPizzaRight.png" id="MushroomRImg">
+                        <img src="images/olivePizza.png" id="OliveImg">
+                        <img src="images/olivePizzaLeft.png" id="OliveLImg">
+                        <img src="images/olivePizzaRight.png" id="OliveRImg">
+                        <img src="images/onionPizza.png" id="OnionImg">
+                        <img src="images/onionPizzaLeft.png" id="OnionLImg">
+                        <img src="images/onionPizzaRight.png" id="OnionRImg">
+                        <img src="images/pepporoniPizzapsd.png" id="PepperoniImg">
+                        <img src="images/pepporoniPizzaLeft.png" id="PepperoniLImg">
+                        <img src="images/pepporoniPizzaRight.png" id="PepperoniRImg">
+                        <img src="images/pinapplePizza.png" id="PineappleImg">
+                        <img src="images/pinapplePizzaLeft.png" id="PineappleLImg">
+                        <img src="images/pinapplePizzaRight.png" id="PineappleRImg">
+                        <img src="images/redPepperPizza.png" id="RedPepperImg">
+                        <img src="images/redPepperPizzaLeft.png" id="RedPepperLImg">
+                        <img src="images/redPepperPizzaRight.png" id="RedPepperRImg">
+                        <img src="images/sausagePizza.png" id="SausageImg">
+                        <img src="images/sausagePizzaLeft.png" id="SausageLImg">
+                        <img src="images/sausagePizzaRight.png" id="SausageRImg">
+
+
+                    </div>
+                    <div class="listdiv" id='list'></div>
+
+                </div>
+                <div class="buttoncontainer">
+                    <button class="checkoutdiv" type="button" onclick="alert('Hello world!')">Checkout</button>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
 
 
         </div>
-        <div class="listdiv" id='list'></div>
-
-    </div>
-    <div class="buttoncontainer">
-        <button class="checkoutdiv" type="button" onclick="alert('Hello world!')">Checkout</button>
-
-
-</div>
-
-</div>
 
 
 
-
-
-
-
-
-</div>
-
-
-
-<script src="script.js"></script>
+        <script src="script.js"></script>
 
 </body>
 
