@@ -657,21 +657,19 @@ function addText(evt) {
     // } 
     if (listID.getElementsByTagName("p").length == 5) {
         total = 3;
-        listID.innerHTML += '<p id="itemInList">5 Ingredient Combo! $' + 3 + '</p>';
-
+        listID.innerHTML += '<h5 id="itemInList">5 Ingredient Combo! $' + 3 + '</h5>';
+        listID.innerHTML += '<h5 id="itemInListX">-$' + 1 + '</h5>';
     }
     if (listID.getElementsByTagName("p").length == 6) {
-        if (listID.contains(document.getElementById('itemInList'))) {
+        total = 5;
             listID.removeChild(document.getElementById("itemInList"));
-            total = 3;
-
-        } else {
-            total = 5;
-        }
+            listID.removeChild(document.getElementById("itemInListX"));
     }
     if (listID.getElementsByTagName("p").length == 4) {
         if (listID.contains(document.getElementById('itemInList'))) {
             listID.removeChild(document.getElementById("itemInList"));
+            listID.removeChild(document.getElementById("itemInListX"));
+
         }
         total = 3;
 
@@ -680,6 +678,8 @@ function addText(evt) {
     if (listID.getElementsByTagName("p").length == 7) {
         if (listID.contains(document.getElementById('itemInList'))) {
             listID.removeChild(document.getElementById("itemInList"));
+            listID.removeChild(document.getElementById("itemInListX"));
+
         }
     }
     // if (evt.checked) {
@@ -688,6 +688,6 @@ function addText(evt) {
     //     listID.removeChild(document.getElementById("itemInList"));
 
     // }
-    document.getElementById('list').innerHTML += '<h6 id="total">Total $' + total + '</h6>';
+    document.getElementById('list').innerHTML += '<h4 id="total">Total $' + total + '</h4>';
     console.log(total);
 }
